@@ -1,0 +1,22 @@
+﻿<Window x:Class="Bimbo.DSD.UpdateAdmin.Parametros"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Parametros de conexión" Height="350" Width="300" Icon="/DSDMobile_UpdateAdmin;component/Images/bimbo.ico" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="Host" Height="25" HorizontalAlignment="Left" Margin="42,87,0,0" Name="label1" VerticalAlignment="Top" Width="50" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="98,87,0,0" Name="txtHost" VerticalAlignment="Top" Width="140" />
+        <Label Content="Puerto" Height="25" HorizontalAlignment="Left" Margin="42,115,0,0" Name="label2" VerticalAlignment="Top" Width="50" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="98,115,0,0" Name="txtPort" VerticalAlignment="Top" Width="68" />
+        <Label Content="Usuario" Height="25" HorizontalAlignment="Left" Margin="42,143,0,0" Name="label3" VerticalAlignment="Top" Width="50" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="98,143,0,0" Name="txtUID" VerticalAlignment="Top" Width="140" />
+        <Label Content="Password" Height="25" HorizontalAlignment="Left" Margin="30,171,0,0" Name="label4" VerticalAlignment="Top" Width="62" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="98,171,0,0" Name="txtPSW" VerticalAlignment="Top" Width="140" />
+        <Label Content="Base de datos" Height="25" HorizontalAlignment="Left" Margin="10,199,0,0" Name="label5" VerticalAlignment="Top" Width="92" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="98,199,0,0" Name="txtDB" VerticalAlignment="Top" Width="140" />
+        <Label Content="Parametros de Conexión" Height="25" HorizontalAlignment="Left" Margin="10,12,0,0" Name="label6" VerticalAlignment="Top" Width="156" FontWeight="Bold" />
+        <Image Height="34" HorizontalAlignment="Left" Margin="159,15,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="103" Source="/DSDMobile_UpdateAdmin;component/Images/LogoBimbo.PNG" />
+        <Button Content="Guardar" Height="25" HorizontalAlignment="Left" Margin="179,241,0,0" Name="btnGuardar" VerticalAlignment="Top" Width="59" Click="btnGuardar_Click" />
+        <Button Content="Salir" Height="25" HorizontalAlignment="Left" Margin="98,241,0,0" Name="btnSalir" VerticalAlignment="Top" Width="59" Click="btnSalir_Click" />
+        <Label Content="a Base de Datos" Height="25" HorizontalAlignment="Left" Margin="10,0,0,257" Name="label7" VerticalAlignment="Bottom" Width="137" FontWeight="Bold" />
+    </Grid>
+</Window>

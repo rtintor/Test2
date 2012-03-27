@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bimbo.DSD.UpdateAdmin", "WpfApplication1\Bimbo.DSD.UpdateAdmin.csproj", "{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DSDMobile_UpdateAdmin", "DSDMobile_UpdateAdmin\DSDMobile_UpdateAdmin.vdproj", "{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release Install|x64 = Release Install|x64
+		Release Install|x86 = Release Install|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Release64|x64 = Release64|x64
+		Release64|x86 = Release64|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Debug|x64.ActiveCfg = Debug|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Debug|x64.Build.0 = Debug|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Debug|x86.ActiveCfg = Debug|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Debug|x86.Build.0 = Debug|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release Install|x64.ActiveCfg = Release Install|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release Install|x64.Build.0 = Release Install|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release Install|x86.ActiveCfg = Release Install|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release Install|x86.Build.0 = Release Install|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release|x64.ActiveCfg = Release|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release|x64.Build.0 = Release|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release|x86.ActiveCfg = Release|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release|x86.Build.0 = Release|x86
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release64|x64.ActiveCfg = Release64|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release64|x64.Build.0 = Release64|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release64|x86.ActiveCfg = Release64|x64
+		{99A0FF35-0658-4B9F-BAF9-3A3DE00885AB}.Release64|x86.Build.0 = Release64|x64
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Debug|x64.ActiveCfg = Debug
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Debug|x64.Build.0 = Debug
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Debug|x86.ActiveCfg = Debug
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Debug|x86.Build.0 = Debug
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release Install|x64.ActiveCfg = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release Install|x64.Build.0 = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release Install|x86.ActiveCfg = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release Install|x86.Build.0 = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release|x64.ActiveCfg = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release|x64.Build.0 = Release Install
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release|x86.ActiveCfg = Release
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release|x86.Build.0 = Release
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release64|x64.ActiveCfg = Release64
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release64|x64.Build.0 = Release64
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release64|x86.ActiveCfg = Release64
+		{97DED9FC-5CD7-4C38-B41C-6955B3B0ADB9}.Release64|x86.Build.0 = Release64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

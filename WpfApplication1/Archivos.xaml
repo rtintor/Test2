@@ -1,0 +1,66 @@
+﻿<Window x:Class="Bimbo.DSD.UpdateAdmin.Archivos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Seleccion de Archivos" Height="450" Width="380" Loaded="Window_Loaded" Icon="/DSDMobile_UpdateAdmin;component/Images/bimbo.ico">
+
+    <Window.Resources>
+        <!-- Data Template (applied to each bound task item in the task collection) -->
+        <DataTemplate x:Key="myTaskTemplate">
+            <Border Name="border" BorderBrush="Gray" BorderThickness="1" CornerRadius="1" Padding="1" Margin="1">
+                <StackPanel>
+                    <Grid Width="150">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,5,0" Text="Nombre:" FontSize="9" />
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=sShort}" FontSize="9" />
+                    </Grid>
+                    <Grid Width="150">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,5,0" Text="Accion:" FontSize="9" />
+                        <TextBlock Grid.Row="0" Grid.Column="1" Padding="0,0,5,0" Text="{Binding Path=option}" FontSize="9" />
+                        <TextBlock Grid.Row="0" Grid.Column="2" Padding="0,0,5,0" Text="Destino:" FontSize="9" />
+                        <TextBlock Grid.Row="0" Grid.Column="3" Padding="0,0,5,0" Text="{Binding Path=sDestino}" FontSize="9" />
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="myTaskTemplate2">
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=sShort}" FontSize="9" />
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Button Content="Explorar" Height="23" HorizontalAlignment="Left" Margin="289,58,0,0" Name="btnExplorar" VerticalAlignment="Top" Width="62" Click="btnExplorar_Click" />
+        <Label Content="Directorio" Height="23" HorizontalAlignment="Left" Margin="0,60,0,0" Name="label3" VerticalAlignment="Top" Width="67" />
+        <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="78,60,0,0" Name="txtExplorar" VerticalAlignment="Top" Width="205" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="78,208,0,0" Name="cmbAccion" VerticalAlignment="Top" Width="140" />
+        <Label Content="Acción" Height="23" HorizontalAlignment="Left" Margin="18,208,0,0" Name="label9" VerticalAlignment="Top" Width="49" />
+        <Label Content="Archivos" Height="23" HorizontalAlignment="Left" Margin="18,89,0,0" Name="label10" VerticalAlignment="Top" Width="61" />
+        <Button Content="Subir" Height="20" HorizontalAlignment="Left" Margin="244,238,0,0" Name="btnSubir" VerticalAlignment="Top" Width="37" Click="btnSubir_Click_1" />
+        <Button Content="Bajar" Height="20" HorizontalAlignment="Left" Margin="244,264,0,0" Name="btnBajar" VerticalAlignment="Top" Width="37" Click="btnBajar_Click_1" />
+        <ListBox Height="84" HorizontalAlignment="Left" Margin="78,89,0,0" Name="lstArchivos" VerticalAlignment="Top" Width="205" ItemTemplate="{StaticResource myTaskTemplate2}"/>
+        <Label Content="Agregados" Height="32" HorizontalAlignment="Left" Margin="0,237,0,0" Name="label1" VerticalAlignment="Top" Width="73" />
+        <ListBox Height="128" HorizontalAlignment="Left" Margin="78,237,0,0" Name="lstAgregados" ItemTemplate="{StaticResource myTaskTemplate}"  VerticalAlignment="Top" Width="163" />
+        <Label Content="Seleccionar Archivos" FontSize="12" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Margin="78,12,0,0" Name="label2" VerticalAlignment="Top" Width="140" />
+        <Image Height="34" HorizontalAlignment="Left" Margin="224,8,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="84" Source="/DSDMobile_UpdateAdmin;component/Images/LogoBimbo.PNG" />
+        <Button Content="Salir" Height="24" HorizontalAlignment="Left" Margin="8,375,0,0" Name="btnSalir" VerticalAlignment="Top" Width="62" Click="button2_Click" />
+        <Button Content="Guardar" Height="24" HorizontalAlignment="Right" Margin="0,375,12,0" Name="btnGuardar" VerticalAlignment="Top" Width="62" Click="btnGuardar_Click" />
+        <Button Content="Borrar" Height="20" HorizontalAlignment="Left" Margin="244,290,0,0" Name="btnBorrar" VerticalAlignment="Top" Width="37" Click="btnBorrar_Click" />
+        <Button Content="Agregar" Height="23" HorizontalAlignment="Left" Margin="224,208,0,0" Name="btnAgregar" VerticalAlignment="Top" Width="57" Click="btnAgregar_Click" />
+        <Label Content="Destino" Height="23" HorizontalAlignment="Left" Margin="18,179,0,0" Name="label7" VerticalAlignment="Top" Width="52" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="78,179,0,0" Name="txtDestino" VerticalAlignment="Top" Width="205" />
+    </Grid>
+</Window>

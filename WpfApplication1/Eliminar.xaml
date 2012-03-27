@@ -1,0 +1,17 @@
+﻿<Window x:Class="Bimbo.DSD.UpdateAdmin.Eliminar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Eliminar versiones" Height="300" Width="300" Loaded="Window_Loaded" Icon="/DSDMobile_UpdateAdmin;component/Images/bimbo.ico">
+    <Grid>
+        <Label Content="Versión" Height="23" HorizontalAlignment="Left" Margin="36,135,0,0" Name="label1" VerticalAlignment="Top" Width="52" />
+        <Button Content="Salir" Height="30" HorizontalAlignment="Left" Margin="25,218,0,0" Name="btnSalir" VerticalAlignment="Top" Width="69" Click="btnSalir_Click" />
+        <Button Content="Eliminar" Height="30" HorizontalAlignment="Left" Margin="193,218,0,0" Name="btnEnviar" VerticalAlignment="Top" Width="69" FontWeight="Bold" Click="btnEnviar_Click" />
+        <Label Content="Eliminar Versiones del Servidor" FontSize="12" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="36,57,0,0" Name="label4" VerticalAlignment="Top" Width="206" />
+        <Image Height="39" HorizontalAlignment="Left" Margin="90,12,0,0" Name="image1" Source="/DSDMobile_UpdateAdmin;component/Images/LogoBimbo.PNG" Stretch="Fill" VerticalAlignment="Top" Width="110" />
+        <Label Content="Agencia" Height="23" HorizontalAlignment="Left" Margin="36,106,0,0" Name="label5" VerticalAlignment="Top" Width="52" />
+        <Label Content="Dispositivo" Height="23" HorizontalAlignment="Left" Margin="12,164,0,0" Name="label8" VerticalAlignment="Top" Width="76" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="99,164,0,0" Name="cmbDispo" VerticalAlignment="Top" Width="163" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="99,106,0,0" Name="cmbAgencia" VerticalAlignment="Top" Width="87" SelectionChanged="cmbAgencia_SelectionChanged" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="99,135,0,0" Name="cmbVersion" VerticalAlignment="Top" Width="87" SelectionChanged="cmbVersion_SelectionChanged" />
+    </Grid>
+</Window>

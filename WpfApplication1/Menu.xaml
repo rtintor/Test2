@@ -1,0 +1,19 @@
+﻿<Window x:Class="Bimbo.DSD.UpdateAdmin.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu" Height="400" Width="400" Loaded="Window_Loaded" Icon="/DSDMobile_UpdateAdmin;component/Images/bimbo.ico">
+    <Grid Name="menuGrid">
+        <Image Height="34" HorizontalAlignment="Left" Margin="140,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/DSDMobile_UpdateAdmin;component/Images/LogoBimbo.PNG" />
+        <Label Content="Administrador de Actualización" FontSize="12" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="88,52,0,0" Name="label4" VerticalAlignment="Top" Width="206" />
+        <Label Content="Menu Principal" FontSize="12" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="138,83,0,0" Name="label1" VerticalAlignment="Top" Width="102" />
+        <Button Content="Agregar&#10;Versión" Height="50" HorizontalAlignment="Left" Margin="106,196,0,0" Name="btnAdd" VerticalAlignment="Top" Width="80" FontSize="12" Click="btnAdd_Click" />
+        <Button Content="Eliminar&#10;Versión" Height="50" HorizontalAlignment="Left" Margin="214,196,0,0" Name="btnDelete" VerticalAlignment="Top" Width="80" FontSize="12" Click="btnDelete_Click" />
+        <Button Content="Administrar&#10;   Versión" Height="50" HorizontalAlignment="Left" Margin="106,258,0,0" Name="btnAdmin" VerticalAlignment="Top" Width="80" FontSize="12" Click="btnAdmin_Click" />
+        <Button Content="Salir" Height="23" HorizontalAlignment="Left" Margin="214,326,0,0" Name="btnSalir" VerticalAlignment="Top" Width="80" Click="btnSalir_Click" />
+        <Button Content="Parametros" Height="23" HorizontalAlignment="Left" IsEnabled="False" Margin="106,158,0,0" Name="btnConexion" VerticalAlignment="Top" Width="87" Click="btnConexion_Click" />
+        <Label Content="Base de Datos" Height="25" HorizontalAlignment="Left" Margin="12,124,0,0" Name="label2" VerticalAlignment="Top" Width="95" />
+        <ComboBox Height="25" HorizontalAlignment="Left" Margin="106,124,0,0" Name="cmbODBC" VerticalAlignment="Top" Width="188" SelectionChanged="cmbODBC_SelectionChanged" />
+        <Button Content="Administrar&#10;    Rutas" FontSize="12" Height="50" HorizontalAlignment="Left" Margin="214,258,0,0" Name="btnRutas" VerticalAlignment="Top" Width="80" Click="btnRutas_Click" />
+        <Label Content="Versión 1.0" Height="24" HorizontalAlignment="Left" Margin="156,69,0,0" Name="label3" VerticalAlignment="Top" Width="68" />
+    </Grid>
+</Window>
