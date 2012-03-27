@@ -62,5 +62,6 @@
         <Button Content="Agregar" Height="23" HorizontalAlignment="Left" Margin="224,208,0,0" Name="btnAgregar" VerticalAlignment="Top" Width="57" Click="btnAgregar_Click" />
         <Label Content="Destino" Height="23" HorizontalAlignment="Left" Margin="18,179,0,0" Name="label7" VerticalAlignment="Top" Width="52" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="78,179,0,0" Name="txtDestino" VerticalAlignment="Top" Width="205" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="320,243,0,0" Name="label4" VerticalAlignment="Top" />
     </Grid>
 </Window>
